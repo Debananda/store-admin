@@ -1,5 +1,5 @@
 import prismadb from "@/lib/prismadb";
-import format from "date-fns/format";
+import { format } from "date-fns";
 
 import { ProductForm } from "./components/product-form";
 import InventoryList, { InventoryColumn } from "./components/inventory-list";
